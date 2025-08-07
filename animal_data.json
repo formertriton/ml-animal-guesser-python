@@ -1,0 +1,161 @@
+{
+  "animals": [
+    {
+      "name": "Dog",
+      "features": {
+        "mammal": 1,
+        "domestic": 1,
+        "four_legs": 1,
+        "barks": 1,
+        "carnivore": 0.5
+      }
+    },
+    {
+      "name": "Cat",
+      "features": {
+        "mammal": 1,
+        "domestic": 1,
+        "four_legs": 1,
+        "purrs": 1,
+        "carnivore": 1
+      }
+    },
+    {
+      "name": "Elephant",
+      "features": {
+        "mammal": 1,
+        "large": 1,
+        "four_legs": 1,
+        "trunk": 1,
+        "herbivore": 1
+      }
+    },
+    {
+      "name": "Lion",
+      "features": {
+        "mammal": 1,
+        "carnivore": 1,
+        "four_legs": 1,
+        "wild": 1,
+        "roars": 1
+      }
+    },
+    {
+      "name": "Fish",
+      "features": {
+        "aquatic": 1,
+        "fins": 1,
+        "gills": 1,
+        "scales": 1,
+        "cold_blooded": 1
+      }
+    },
+    {
+      "name": "Bird",
+      "features": {
+        "flies": 1,
+        "feathers": 1,
+        "beak": 1,
+        "lays_eggs": 1,
+        "warm_blooded": 1
+      }
+    },
+    {
+      "name": "Snake",
+      "features": {
+        "reptile": 1,
+        "no_legs": 1,
+        "cold_blooded": 1,
+        "carnivore": 1,
+        "long": 1
+      }
+    },
+    {
+      "name": "Rabbit",
+      "features": {
+        "mammal": 1,
+        "herbivore": 1,
+        "four_legs": 1,
+        "hops": 1,
+        "long_ears": 1
+      }
+    },
+    {
+      "name": "Bear",
+      "features": {
+        "mammal": 1,
+        "large": 1,
+        "four_legs": 1,
+        "omnivore": 1,
+        "wild": 1
+      }
+    },
+    {
+      "name": "Whale",
+      "features": {
+        "mammal": 1,
+        "aquatic": 1,
+        "large": 1,
+        "intelligent": 1,
+        "warm_blooded": 1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "text": "Is it a mammal?",
+      "feature": "mammal",
+      "weight": 0.8
+    },
+    {
+      "text": "Does it live on land?",
+      "feature": "terrestrial",
+      "weight": 0.7
+    },
+    {
+      "text": "Is it larger than a house cat?",
+      "feature": "large",
+      "weight": 0.6
+    },
+    {
+      "text": "Is it a carnivore (meat-eater)?",
+      "feature": "carnivore",
+      "weight": 0.7
+    },
+    {
+      "text": "Does it have four legs?",
+      "feature": "four_legs",
+      "weight": 0.8
+    },
+    {
+      "text": "Is it a domestic animal?",
+      "feature": "domestic",
+      "weight": 0.6
+    },
+    {
+      "text": "Can it fly?",
+      "feature": "flies",
+      "weight": 0.9
+    },
+    {
+      "text": "Does it live in water?",
+      "feature": "aquatic",
+      "weight": 0.8
+    },
+    {
+      "text": "Is it a predator?",
+      "feature": "predator",
+      "weight": 0.6
+    },
+    {
+      "text": "Does it have fur?",
+      "feature": "fur",
+      "weight": 0.7
+    }
+  ],
+  "game_history": [],
+  "stats": {
+    "played": 1,
+    "correct": 1
+  }
+}
