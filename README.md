@@ -5,7 +5,7 @@ A command-line machine learning game that learns to guess animals using informat
 # 🚀 How to Run
 
 ```
-python animal\_guesser.py
+python animal_guesser.py
 ```
 
 # Features
